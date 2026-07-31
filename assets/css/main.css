@@ -1016,6 +1016,19 @@ section,
   transition: all 0.3s ease;
 }
 
+.profile-actions a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.36s ease;
+}
+
 .about .profile-card .profile-actions a.btn-primary {
   background: var(--accent-color);
   color: var(--contrast-color);

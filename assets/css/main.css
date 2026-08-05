@@ -221,6 +221,36 @@ transform: translateY(-2px);
 box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
+a.download-class {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+padding: 14px 24px;
+border-radius: 12px;
+font-weight: 600;
+font-size: 15px;
+text-decoration: none;
+transition: all 0.3s ease;
+background: var(--accent-color);
+color: var(--contrast-color);
+}
+a.download-class:hover {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+padding: 14px 24px;
+border-radius: 12px;
+font-weight: 600;
+font-size: 15px;
+text-decoration: none;
+transition: all 0.3s ease;
+background: color-mix(in srgb, var(--accent-color), #000 15%);
+transform: translateY(-2px);
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
